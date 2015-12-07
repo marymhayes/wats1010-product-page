@@ -1,8 +1,43 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+/* specific divs */
+.tagline {
+	text-align: center;
+	font-size:500%;
+	color: black;
+	margin-bottom: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+.description {
+	text-align: center;
+	color: black;
+	margin-bottom: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+.video {
+	float: left;
+}
+.testimonials {
+	float: right;
+	padding-left: 60%;
+	min-width: 200px;
+	position: relative;
+}
+.features {
+	float: left;
+}
+.signup {
+	float: right;
+}
+footer {
+	text-align: center;
+	color: black;
+	margin-bottom: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
