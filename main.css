@@ -5,39 +5,68 @@ html {
 	margin: 0;
 	padding: 0;
 	}
+body {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #272727;
+	background: url(mutescreen1.jpg) center center no-repeat;
+}
 
 /* specific divs */
+h1 {
+	text-align: center;
+	font-size: 400%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	min-width: 200px;
+}
 .tagline {
 	text-align: center;
-	font-size:500%;
-	color: black;
+	font-size:100%;
+	color: 272727;
+	margin-top: 0;
+	padding-top: 0;
 	margin-bottom: 0;
 	font-family: "Arial Black", Gadget, sans-serif;
+	min-width: 200px;
 }
-.description {
+.lead {
 	text-align: center;
-	color: black;
-	margin-bottom: 0;
+	color: 272727;
+	margin-bottom: 15px;
 	font-family: "Arial Black", Gadget, sans-serif;
+	min-width: 200px;
 }
 .video {
 	float: left;
+	padding-right: 60px;
+	margin-left: 60px;
+	min-width: 200px;
 }
 .testimonials {
-	float: right;
-	padding-left: 60%;
+	padding-left: 60px;
+	margin-right: 60px;
+	text-align: center;
 	min-width: 200px;
-	position: relative;
 }
 .features {
-	float: left;
+	clear: left;
+	max-width: 400px;
+	padding-top: 15px;
+	padding-right: 60px;
+	margin-top:15px;
+	margin-left: 60px;
+	text-align: center;
+	min-width: 200px;
 }
 .signup {
 	float: right;
 }
 footer {
+	clear: right;
 	text-align: center;
-	color: black;
+	color: 272727;
 	margin-bottom: 0;
+	margin-top: 15px;
+	padding-top: 15px;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
